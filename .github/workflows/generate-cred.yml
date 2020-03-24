@@ -2,12 +2,12 @@ name: generate-cred
 
 on:
   # Trigger on merging to master.
-  push: 
-    branches: 
+  push:
+    branches:
       - master
-  # As well as every 6 hours.
+  # As well as every 1 hours.
   schedule:
-    - cron: 0 */6 * * *
+    - cron: 0 */1 * * *
 
 jobs:
   GenerateCred:
@@ -32,7 +32,7 @@ jobs:
           SOURCECRED_DISCORD_TOKEN: ${{ secrets.SOURCECRED_DISCORD_TOKEN }}
         with:
           weights: weights.json
-          project: "@metagame"
+          project: "@estoniadao"
           project-file: project.json
           branch-against: master
           automated: true
