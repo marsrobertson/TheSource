@@ -24,15 +24,15 @@
     ],
     "repoIds": [
       {
-        "name": "estoniadao.github.io",
+        "name": "EstoniaDAO.github.io",
         "owner": "estoniadao"
       },
       {
-        "name": "thesource",
+        "name": "TheSource",
         "owner": "estoniadao"
       },
       {
-        "name": "estoniadao",
+        "name": "estonia-dao",
         "owner": "estoniadao"
       }
     ]
